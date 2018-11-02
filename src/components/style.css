@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url('./../fonts/LeagueSpartan-Bold.otf');
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans');
+}
+
+nav {
+  padding-top: 20px;
+  padding-left: 48px;
+  padding-right: 48px;
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 45px;
+  margin-right: 45px;
+  color: #9C9C9C;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.space {
+  background: #202020;
+}
+
+.landing-space {
+  background-image: url('./../assets/parking.png');
+  background-size: 100%;
+}
+
+.space-photo {
+  position: relative;
+  margin-left: 21.5em;
+  margin-top: -1.1em;
+  z-index: 3;
+}
+
+.space-description {
+  display: flex;
+  justify-content: center;
+}
+
+.space-question {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 28px;
+  font-family: 'LeagueSpartan';
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  color: #9c9c9c;
+}
+
+.space-answer {
+  text-align: center;
+  width: 917px;
+  height: 107px;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9c9c9c;
+  margin-top: 15px;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  background: #FFB931;
+  padding-top: 93px;
+}
+
+button {
+  width: 318px;
+  height: 89px;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border: solid 2px #323232;
+  background-color: #ffb931;
+  font-family: 'LeagueSpartan';
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  color: #323232;
+  cursor: pointer;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-button1 {
+  margin-right: 52.5px;
+}
+
+.footer-button2 {
+  margin-left: 52.5px;
+}
+
+.footer-notes {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(50, 50, 50, 0.6);
+  margin: 83px;
+}
