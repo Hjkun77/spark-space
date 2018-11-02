@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import Boxes from './Boxes';
 import Space from './../assets/space.svg';
 import './style.css';
 
@@ -16,8 +17,14 @@ const LandingPage = () =>  {
       <div className="space-description">
         <p className="space-answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor ipsum massa, lacinia lacinia turpis lacinia ut. Nunc consequat mattis aliquet. Vivamus a sem tincidunt orci dictum viverra eget et libero. Donec sit amet massa vel nulla ultricies vehicula non non massa. Mauris imperdiet quam urna, in dapibus nunc cursus vel. Cras commodo venenatis urna vel mollis.</p>
       </div>
-      <div space="space-boxes">
+      <div className="space-boxes">
         <p>How it Works</p>
+        <div className="space-grid">
+          <div className="box1"><Boxes title="Open App"/></div>
+          <div className="box2"><Boxes title="Plan Parking"/></div>
+          <div className="box3"><Boxes title="Find Your Space"/></div>
+        </div>
+
       </div>
 
 
