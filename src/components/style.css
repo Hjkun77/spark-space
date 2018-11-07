@@ -39,18 +39,8 @@ li {
 
 .space {
   background: #202020;
-}
-
-.landing-space {
-  background-image: url('./../assets/parking.png');
-  background-size: 100%;
-}
-
-.space-photo {
-  position: relative;
-  margin-left: 21.5em;
-  margin-top: -1.1em;
-  z-index: 3;
+  width: 100vw;
+  height: 100%;
 }
 
 .space-description {
@@ -88,6 +78,8 @@ li {
 .space-boxes {
   padding: 120px 204px 136px 204px;
 }
+
+
 .space-boxes p {
  height: 25px;
  font-family: 'LeagueSpartan';
@@ -114,6 +106,10 @@ li {
   padding: 48px 40px 48px 40px;
 }
 
+.boxes img {
+  margin: 0 60px 0 60px;
+}
+
 .boxes h4 {
   font-family: 'LeagueSpartan';
   font-size: 18px;
@@ -125,7 +121,6 @@ li {
   color: #d4d4d4;
   text-transform: uppercase;
   text-align: center;
-  margin: 144px 0 16px 0;
   padding: 0px;
 }
 
@@ -209,4 +204,8 @@ button {
   letter-spacing: normal;
   color: rgba(50, 50, 50, 0.6);
   margin: 83px;
+}
+
+@media screen and (max-width:  ) {
+
 }

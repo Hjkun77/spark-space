@@ -1,12 +1,14 @@
 import React from 'react';
+import Icon from './../assets/icon.png';
 import './style.css';
 
 const Boxes = (props) => {
   return(
     <div className="boxes">
+      <img src={Icon} alt="Icon" width="100"/>
       <h4>{props.title}</h4>
       <div className="box-container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui voluptates, obcaecati dicta beatae, accusantium aspernatur iure vitae temporibus sed tenetur.</p>
+        <p>{props.paragraph}</p>
       </div>
     </div>
   );
