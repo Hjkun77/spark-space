@@ -43,6 +43,15 @@ li {
   height: 100%;
 }
 
+.imagine-space {
+  background-image: url('./../assets/imagine.svg');
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
 .space-description {
   margin: 30px 305px 0 305px;
 }

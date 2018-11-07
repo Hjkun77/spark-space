@@ -10,7 +10,7 @@ const LandingPage = () =>  {
   return(
     <div className="space">
       <Navbar/>
-      <img src={Space} alt="Space"/>
+      <div className="imagine-space"></div>
       <p className="space-question">Why Space?</p>
       <div className="space-description">
         <p className="space-answer">Space is a web and mobile application that helps users reduce the time being wasted in finding a parking space in a specific venue. Space allows individuals to view the parking situation of a particular venue real time. Moreover, it allows users to reserve the space that they want beforehand. Space provides convienience and comfort in finding the right space for you. </p>
