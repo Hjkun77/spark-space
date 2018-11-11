@@ -5,7 +5,7 @@ const Footer = () =>  {
   return(
     <footer>
       <div className="footer-buttons">
-        <button className="footer-button1">Preview App</button>
+        <button className="footer-button1"><a href="https://admu.uxsociety.org/uxnchill#home" target="_blank">Vote Now</a></button>
         <button className="footer-button2">Download App</button>
       </div>
       <p className="footer-notes">

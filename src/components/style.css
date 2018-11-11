@@ -20,6 +20,11 @@ nav {
           flex-direction: row;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0px;
+}
 ul {
   display: -webkit-box;
   display: -ms-flexbox;
