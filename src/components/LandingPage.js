@@ -19,7 +19,7 @@ const LandingPage = () =>  {
       <div className="container">
         <p className="space-question">Why Space?</p>
         <div className="space-description">
-          <p className="space-answer">Space is a web and mobile application that helps users reduce the time being wasted in finding a parking space in a specific venue. Space allows individuals to view the parking situation of a particular venue real time. Moreover, it allows users to reserve the space that they want beforehand. Space provides convienience and comfort in finding the right space for you. </p>
+          <p className="space-answer">Space is an interactive mobile utility application that provides a comprehensive solution for the problme of parking of Ateneans with the click of a button. It offers real time updates on all available parking spaces and enhances contact with other drivers to promot initiative for slot reservation.</p>
         </div>
         <div className="space-boxes">
           <p>How it Works</p>
