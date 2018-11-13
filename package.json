@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "animate": "^1.0.0",
+    "animate.css": "^3.7.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.0.5"
